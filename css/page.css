@@ -1,0 +1,55 @@
+.xs-display {
+    display: none !important
+}
+
+.page {
+    height: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page a {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #1B46B3;
+    margin: 0 10px;
+    transition: all .36s;
+    box-shadow: 0px 2.767256498336792px 2.2138051986694336px 0px rgba(29, 86, 185, 0.02), 0px 6.650102138519287px 5.32008171081543px 0px rgba(29, 86, 185, 0.03), 0px 12.521552085876465px 10.017241477966309px 0px rgba(29, 86, 185, 0.04), 0px 22.3363094329834px 17.869047164916992px 0px rgba(29, 86, 185, 0.04), 0px 41.777610778808594px 33.422088623046875px 0px rgba(29, 86, 185, 0.05);
+}
+
+.page a svg {
+    width: 14px;
+    height: 14px;
+    fill: #1B46B3;
+    font-weight: bold;
+}
+
+.page a:hover,
+.page a.active {
+    background: #1B46B3;
+    color: #fff;
+    border-color: transparent;
+}
+
+.page a:hover svg,
+.page a.active svg {
+    fill: #fff;
+}
+
+@media screen and (max-width: 991px) {
+    .xs-display {
+        display: block !important
+    }
+
+    .lg-display {
+        display: none !important
+    }
+}
